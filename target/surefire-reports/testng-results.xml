@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-11T14:54:53 TRT" name="Surefire suite" finished-at="2023-02-11T14:55:14 TRT" duration-ms="21510">
+    <groups>
+    </groups>
+    <test started-at="2023-02-11T14:54:53 TRT" name="Surefire test" finished-at="2023-02-11T14:55:14 TRT" duration-ms="21510">
+      <class name="org.selenium.pom.tests.CheckoutTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.CheckoutTest@37918c79]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="7177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.CheckoutTest@37918c79]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="7232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="GuestCheckoutUsingDirectBankTransfer()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@37918c79]" started-at="2023-02-11T14:55:00 TRT" name="GuestCheckoutUsingDirectBankTransfer" finished-at="2023-02-11T14:55:12 TRT" duration-ms="12586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GuestCheckoutUsingDirectBankTransfer -->
+        <test-method signature="LoginAndCheckoutUsingDirectBankTransfer()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@37918c79]" started-at="2023-02-11T14:55:00 TRT" name="LoginAndCheckoutUsingDirectBankTransfer" finished-at="2023-02-11T14:55:14 TRT" duration-ms="13990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndCheckoutUsingDirectBankTransfer -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@37918c79]" started-at="2023-02-11T14:55:12 TRT" name="quitDriver" finished-at="2023-02-11T14:55:13 TRT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@37918c79]" started-at="2023-02-11T14:55:14 TRT" name="quitDriver" finished-at="2023-02-11T14:55:14 TRT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.CheckoutTest -->
+      <class name="org.selenium.pom.tests.SearchTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.SearchTest@56de5251]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="7181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="searchWithPartialMatch()[pri:0, instance:org.selenium.pom.tests.SearchTest@56de5251]" started-at="2023-02-11T14:55:00 TRT" name="searchWithPartialMatch" finished-at="2023-02-11T14:55:06 TRT" duration-ms="5798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithPartialMatch -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.SearchTest@56de5251]" started-at="2023-02-11T14:55:06 TRT" name="quitDriver" finished-at="2023-02-11T14:55:06 TRT" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.SearchTest -->
+      <class name="org.selenium.pom.tests.NavigateTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.NavigateTest@5276e6b0]" started-at="2023-02-11T14:55:06 TRT" name="startDriver" finished-at="2023-02-11T14:55:09 TRT" duration-ms="2886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="NavigateFromHomeToStoreUsingMainMenu()[pri:0, instance:org.selenium.pom.tests.NavigateTest@5276e6b0]" started-at="2023-02-11T14:55:09 TRT" name="NavigateFromHomeToStoreUsingMainMenu" finished-at="2023-02-11T14:55:11 TRT" duration-ms="1806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateFromHomeToStoreUsingMainMenu -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.NavigateTest@5276e6b0]" started-at="2023-02-11T14:55:11 TRT" name="quitDriver" finished-at="2023-02-11T14:55:11 TRT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.NavigateTest -->
+      <class name="org.selenium.pom.tests.AddToCartTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="7272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="7002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="6991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="6991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="7046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="7045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCartFeaturedProducts(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:00 TRT" name="addToCartFeaturedProducts" data-provider="getFeaturedProducts" finished-at="2023-02-11T14:55:07 TRT" duration-ms="7446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@6d776ced]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFeaturedProducts -->
+        <test-method signature="addToCartFeaturedProducts(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:00 TRT" name="addToCartFeaturedProducts" data-provider="getFeaturedProducts" finished-at="2023-02-11T14:55:07 TRT" duration-ms="7107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@b33172f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFeaturedProducts -->
+        <test-method signature="addToCartFeaturedProducts(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:00 TRT" name="addToCartFeaturedProducts" data-provider="getFeaturedProducts" finished-at="2023-02-11T14:55:07 TRT" duration-ms="7400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@364a6d7c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFeaturedProducts -->
+        <test-method signature="addToCartFeaturedProducts(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:00 TRT" name="addToCartFeaturedProducts" data-provider="getFeaturedProducts" finished-at="2023-02-11T14:55:07 TRT" duration-ms="7366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@42c140f9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFeaturedProducts -->
+        <test-method signature="addToCartFeaturedProducts(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:00 TRT" name="addToCartFeaturedProducts" data-provider="getFeaturedProducts" finished-at="2023-02-11T14:55:06 TRT" duration-ms="6204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@5f256c90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFeaturedProducts -->
+        <test-method signature="addToCartFromStorePage()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:00 TRT" name="addToCartFromStorePage" finished-at="2023-02-11T14:55:07 TRT" duration-ms="7427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromStorePage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:06 TRT" name="quitDriver" finished-at="2023-02-11T14:55:06 TRT" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:07 TRT" name="quitDriver" finished-at="2023-02-11T14:55:07 TRT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:07 TRT" name="quitDriver" finished-at="2023-02-11T14:55:08 TRT" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:07 TRT" name="quitDriver" finished-at="2023-02-11T14:55:08 TRT" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:07 TRT" name="quitDriver" finished-at="2023-02-11T14:55:08 TRT" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@12b0404f]" started-at="2023-02-11T14:55:07 TRT" name="quitDriver" finished-at="2023-02-11T14:55:08 TRT" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.AddToCartTest -->
+      <class name="org.selenium.pom.tests.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.LoginTest@419c5f1a]" started-at="2023-02-11T14:54:53 TRT" name="startDriver" finished-at="2023-02-11T14:55:00 TRT" duration-ms="7177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginDuringCheckout()[pri:0, instance:org.selenium.pom.tests.LoginTest@419c5f1a]" started-at="2023-02-11T14:55:00 TRT" name="loginDuringCheckout" finished-at="2023-02-11T14:55:12 TRT" duration-ms="12042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDuringCheckout -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.LoginTest@419c5f1a]" started-at="2023-02-11T14:55:12 TRT" name="quitDriver" finished-at="2023-02-11T14:55:12 TRT" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
